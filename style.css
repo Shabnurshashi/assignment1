@@ -132,18 +132,78 @@ h3 {
 .education {
     background-color: #fff4d6;
 }
+orange-color {
+    color: coral;
+}
+
+.flexible-containeer {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 2%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.
+
+.top-banneer {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+<section class="five">
+        <div class="section-inner">
+
+            <h2>Get My Updates</h2>
+
+            <div class="center-pera">
+                <p>Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli
+                    deterruisset. No duo populo animal noluisse, enim</p>
+            </div>
+            <div class="subscribe_box">
+                <form action="#">
+                    <input type="text" placeholder="Email">
+                    <input type="submit" value="Subscribe" class="sub_btn">
+                </form>
+            </div>
+        </div>
+    </section>
+
+.five {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-inner {
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+
+
+.subscribe_box {
+    background-color: #fff4d6;
+    padding: 50px;
+    margin: 50px;
+}
 
 .subscribe_box form {
     width: 70%;
-    margin: 0 25px 0 25px;
+    margin: auto;
     display: flex;
     position: relative;
-    background-color: antiquewhite;
-
 }
 
 .subscribe_box form input {
-    width: 30%;
+    width: 100%;
     padding: 15px;
     outline: none;
     border: 0px;
@@ -153,13 +213,16 @@ h3 {
 }
 
 .sub_btn {
-    width: 20%;
+    width: 30% !important;
     position: absolute;
     right: 0;
     background: #ff5959 !important;
     color: white;
     border-radius: 0px 10px 10px 0px !important;
 }
+
+
+
 
 .footer-section-1 {
     background: black;
